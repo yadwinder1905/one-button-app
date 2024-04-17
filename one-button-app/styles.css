@@ -1,0 +1,183 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Hero Section styles */
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* About Section styles */
+.about {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.about-description {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Features Section styles */
+.features {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.features-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #007bff;
+}
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-list li {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section styles */
+.testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.testimonials-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #007bff;
+}
+
+.testimonial {
+    margin-bottom: 40px;
+}
+
+.testimonial-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-size: 18px;
+}
+
+/* Screenshots Section styles */
+.screenshots {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.screenshots-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #007bff;
+}
+
+.screenshot img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Call to Action (CTA) Section styles */
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Footer Section styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+}
